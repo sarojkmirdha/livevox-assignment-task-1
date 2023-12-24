@@ -4,8 +4,8 @@ import pdb
 import pytest
 
 # Mention ASG, REGION
-asgname = "lv-test-cpu"
-region = "ap-south-1"
+asgname = "<asgname>"    #enter ASG name
+region = "<region>"      #enter region name where ASG located
 aws_wrappers = Aws_Wrappers(asgname, region)
 
 
